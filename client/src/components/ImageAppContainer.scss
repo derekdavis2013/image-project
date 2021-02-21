@@ -7,6 +7,10 @@
         &.disabled {
             visibility: hidden;
         }
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 
     .meta-data {

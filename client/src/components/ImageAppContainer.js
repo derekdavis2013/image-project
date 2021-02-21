@@ -75,7 +75,7 @@ class ImageAppContainer extends React.PureComponent {
     }
 
     renderLargeImage() {
-        const largeImage = this.state.loading ? <h2>LOADING</h2> : <LargeImage src={require(`../assets/large/${this.state.activeTemplate.image}`).default} alt='' />;
+        const largeImage = this.state.loading ? <h2>LOADING</h2> : <LargeImage src={require(`../assets/large/${this.state.activeTemplate.image}`).default} alt={this.state.activeTemplate.image} />;
         return largeImage;
     }
 

@@ -15,7 +15,7 @@ class ThumbnailContainer extends React.PureComponent {
                     key={thumbnail}
                     thumbnail={thumbnail}
                     src={thumbSrc}
-                    alt=''
+                    alt={thumbnail}
                     isActive={thumbnail === this.props.activeThumb}
                     onClick={this.props.handleThumbnailClick}
                 />
